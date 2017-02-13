@@ -1,0 +1,24 @@
+platform :ios, '8.0'
+target 'ThirtyDaysOfReactNative' do
+
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+'Core',
+'RCTText',
+'RCTNetwork',
+'RCTWebSocket',
+'RCTImage',
+'RCTAnimation',
+'RCTActionSheet',
+'RCTSettings',
+'RCTLinkingIOS',
+'RCTGeolocation',# 这个模块是用于调试功能的
+# 在这里继续添加你所需要的模块
+]
+
+
+pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+pod 'react-native-video',:path => '../node_modules/react-native-video'
+end
+
+

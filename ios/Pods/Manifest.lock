@@ -1,0 +1,70 @@
+PODS:
+  - React (0.41.2):
+    - React/Core (= 0.41.2)
+  - react-native-maps (0.11.0):
+    - React
+  - react-native-video (0.9.0):
+    - React
+  - React/Core (0.41.2):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.41.2):
+    - React/jschelpers
+  - React/jschelpers (0.41.2)
+  - React/RCTActionSheet (0.41.2):
+    - React/Core
+  - React/RCTAnimation (0.41.2):
+    - React/Core
+  - React/RCTGeolocation (0.41.2):
+    - React/Core
+  - React/RCTImage (0.41.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.41.2):
+    - React/Core
+  - React/RCTNetwork (0.41.2):
+    - React/Core
+  - React/RCTSettings (0.41.2):
+    - React/Core
+  - React/RCTText (0.41.2):
+    - React/Core
+  - React/RCTWebSocket (0.41.2):
+    - React/Core
+  - React/yoga (0.41.2)
+  - RNVectorIcons (2.1.0):
+    - React
+
+DEPENDENCIES:
+  - react-native-maps (from `../node_modules/react-native-maps`)
+  - react-native-video (from `../node_modules/react-native-video`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  react-native-maps:
+    :path: ../node_modules/react-native-maps
+  react-native-video:
+    :path: ../node_modules/react-native-video
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
+
+SPEC CHECKSUMS:
+  React: 2b10c07d947dea71c144a33764e9162ed81e3825
+  react-native-maps: 8b8cb04e5c6a1b3b0720bad64f3f5ce5c1f8ff22
+  react-native-video: c3acf16d18ec19140e2d50a940aef3168b27ea76
+  RNVectorIcons: 8e9308e458f5ccb843d1f11d4aa4ae6368c70214
+
+PODFILE CHECKSUM: 1697b092c5444aa30fe54aeff34bad3720726398
+
+COCOAPODS: 1.0.1
